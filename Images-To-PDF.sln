@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UiPathTeam.ImagesToPDF.Activities", "UiPathTeam.ImagesToPDF.Activities", "{93CB7272-765A-4311-BECB-487BE9A8F5BD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Images-To-PDF", "UiPathTeam.ImagesToPDF.Activities\Images-To-PDF.csproj", "{681CFBD0-79F2-4055-97C5-5A2BB5AB2A66}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{681CFBD0-79F2-4055-97C5-5A2BB5AB2A66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{681CFBD0-79F2-4055-97C5-5A2BB5AB2A66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{681CFBD0-79F2-4055-97C5-5A2BB5AB2A66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{681CFBD0-79F2-4055-97C5-5A2BB5AB2A66}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{681CFBD0-79F2-4055-97C5-5A2BB5AB2A66} = {93CB7272-765A-4311-BECB-487BE9A8F5BD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {78117B67-FD67-4501-8C8C-E0DD6D7B6F3E}
+	EndGlobalSection
+EndGlobal
