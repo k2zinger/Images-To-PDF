@@ -31,6 +31,11 @@
 	<PackageLicenseUrl>https://www.uipath.com/hubfs/legalspot/UiPath_Activity_License_Agreement.pdf</PackageLicenseUrl>
 	<PackageIconUrl>http://www.uipath.com/hubfs/Logos/uipath-nuget-logo.png</PackageIconUrl>
 	<PackageProjectUrl>https://github.com/k2zinger/Images-To-PDF</PackageProjectUrl>
+	<GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+  </PropertyGroup>
+  <!-- ignore build warnings -->
+  <PropertyGroup>
+    <NoWarn>1701;1702;1416;1572;1573;1591;1998</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
