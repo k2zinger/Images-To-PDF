@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UiPathTeam.ImagesToPDF.Acti
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Images-To-PDF", "UiPathTeam.ImagesToPDF.Activities\Images-To-PDF.csproj", "{681CFBD0-79F2-4055-97C5-5A2BB5AB2A66}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UiPathTeam.ImagesToPDF.Activities.Test", "UiPathTeam.ImagesToPDF.Activities.Test\UiPathTeam.ImagesToPDF.Activities.Test.csproj", "{A25F7B61-3CC1-49B4-922E-B90D5342927D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +19,17 @@ Global
 		{681CFBD0-79F2-4055-97C5-5A2BB5AB2A66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{681CFBD0-79F2-4055-97C5-5A2BB5AB2A66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{681CFBD0-79F2-4055-97C5-5A2BB5AB2A66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A25F7B61-3CC1-49B4-922E-B90D5342927D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A25F7B61-3CC1-49B4-922E-B90D5342927D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A25F7B61-3CC1-49B4-922E-B90D5342927D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A25F7B61-3CC1-49B4-922E-B90D5342927D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{681CFBD0-79F2-4055-97C5-5A2BB5AB2A66} = {93CB7272-765A-4311-BECB-487BE9A8F5BD}
+		{A25F7B61-3CC1-49B4-922E-B90D5342927D} = {93CB7272-765A-4311-BECB-487BE9A8F5BD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {78117B67-FD67-4501-8C8C-E0DD6D7B6F3E}

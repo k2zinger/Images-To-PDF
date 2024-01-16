@@ -3,9 +3,9 @@
   "description": "ImagesToPDF example - Legacy",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.System.Activities": "[22.10.4]",
-    "UiPath.UIAutomation.Activities": "[22.10.5]",
-    "UiPathTeam.ImagesToPDF.Activities": "[1.0.13]"
+    "UiPath.System.Activities": "[23.10.3]",
+    "UiPath.UIAutomation.Activities": "[23.10.7]",
+    "UiPathTeam.ImagesToPDF.Activities": "[1.0.14]"
   },
   "webServices": [],
   "entitiesStores": [],

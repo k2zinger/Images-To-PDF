@@ -56,6 +56,8 @@ namespace UiPathTeam.ImagesToPDF.Activities
 
         public void ValidateParameters(NativeActivityContext context)
         {
+            Files.Clear();
+
             if (!String.IsNullOrEmpty(ImageFile.Get(context)))
             {
                 if (!File.Exists(ImageFile.Get(context)))
