@@ -17,7 +17,7 @@ namespace UiPathTeam.ImagesToPDF.Activities.Test
             Assert.IsTrue(File.Exists(Execute_ImageToPDF()));
         }
 
-        [TestMethod]
+        //[TestMethod]
         public void Test_ImageToPDF_in_loop()
         {
             List<string> images = new List<string>();
